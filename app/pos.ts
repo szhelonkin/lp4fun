@@ -47,7 +47,8 @@ async function main() {
 	}));
 	//console.log(map);
 	//console.log([...map]);
-	console.log(Object.fromEntries(map));
+	//console.log(Object.fromEntries(map));
+	console.log(JSON.stringify(Object.fromEntries(map), null, 2));
 }
 
 main().catch(console.error);
